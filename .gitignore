@@ -1,3 +1,4 @@
 .stack-work/
 python3-onelinerizer.cabal
 *~
+test.py

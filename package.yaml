@@ -1,10 +1,10 @@
 name:                python3-onelinerizer
 version:             0.1.0.0
-github:              "githubuser/python3-onelinerizer"
+github:              "sgalal/python3-onelinerizer"
 license:             BSD3
-author:              "Author name here"
+author:              sgal
 maintainer:          "example@example.com"
-copyright:           "2019 Author name here"
+copyright:           "2019 sgal"
 
 extra-source-files:
 - README.md
@@ -35,6 +35,7 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - python3-onelinerizer
+    - language-python >= 0.5.6
 
 tests:
   python3-onelinerizer-test:
