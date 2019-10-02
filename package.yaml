@@ -17,7 +17,7 @@ extra-source-files:
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is
 # common to point users to the README.md file.
-description:         Please see the README on GitHub at <https://github.com/githubuser/python3-onelinerizer#readme>
+description: Convert Python 3 code into one line. Please see the README on GitHub at <https://github.com/sgalal/python3-onelinerizer#readme>
 
 dependencies:
 - base >= 4.7 && < 5
@@ -36,6 +36,7 @@ executables:
     dependencies:
     - python3-onelinerizer
     - language-python >= 0.5.6
+    - transformers >= 0.5.6
 
 tests:
   python3-onelinerizer-test:
