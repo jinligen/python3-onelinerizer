@@ -1,4 +1,4 @@
-# python3-onelinerizer
+# Python3-onelinerizer
 
 Convert Python 3 code into one line, inspired by the [Python 2 counterpart](http://www.onelinerizer.com/)
 
